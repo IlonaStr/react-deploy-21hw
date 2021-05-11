@@ -1,0 +1,92 @@
+.page {
+    width: 600px;
+    min-height: 350px;
+    background: linear-gradient(#D8BFD8, #DB7093);
+    border: 3px solid darkmagenta;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #800000;
+}
+
+.user {
+    display: flex;
+    width: 100%;
+    min-height: 25%;
+}
+
+.user-photo {
+    width: 15%;
+}
+
+.user-photo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.user-info img {
+    height: 25px;
+    width: 25px;
+    margin-left: 3px;
+    margin-right: 6px;
+}
+
+.user-nick {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.info-below {
+    margin-left: 85px;
+}
+
+.main-content {
+    text-align: left;
+    width: 85%;
+    margin-left: 15%;
+    margin-top: -8%;
+    padding-left: 5px;
+}
+
+.main-image img{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    height: auto;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.public {
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.public div{
+    display: flex;
+    align-self: center;
+    font-weight: normal;
+}
+
+.public img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
